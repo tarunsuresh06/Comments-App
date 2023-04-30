@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 50px;
+  color: #1e293b;
+}
+
+.comment-container {
+  margin-top: 100px;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  border-bottom: #dee0e3 solid 2px;
+  padding-bottom: 20px;
+}
+
+.comment-label {
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+}
+
+form {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.comment-input {
+  min-width: 300px;
+  border-radius: 5px;
+  border: solid 1px #dee0e3;
+  outline: none;
+}
+
+input {
+  height: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 6px;
+}
+
+.comments-counter-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.counter {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 1px 7px;
+  border-radius: 5px;
+}
