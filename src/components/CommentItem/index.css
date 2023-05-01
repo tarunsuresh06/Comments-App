@@ -1,3 +1,23 @@
+.comment-item {
+  list-style-type: none;
+}
+
+.comment-container {
+  display: flex;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
 .amber {
   background-color: #f59e0b;
 }
@@ -26,66 +46,82 @@
   background-color: #0ea5e9;
 }
 
-/* Write your CSS here */
-
-.comment-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  border-bottom: #dee0e3 solid 2px;
-  padding-bottom: 20px;
-}
-
-.comment-responsive-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.like-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  color: #94a3b8;
-  font-weight: 500;
-}
-
 .initial {
-  height: 40px;
-  width: 40px;
-  border-radius: 30px;
-  background-color: #0b69ff;
-  text-align: center;
-  padding: auto;
   color: #ffffff;
-  font-weight: 400;
-  font-size: 30px;
-  margin-right: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0;
 }
 
-.comment-name {
+.username-time-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.username {
   color: #334155;
-  font-size: 23px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.time {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .comment {
-  color: #94a3b8;
-  font-size: 15px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
 }
 
-.like-img {
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.like-image {
+  height: 20px;
   width: 20px;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
-.like-text {
-  padding-top: 55px;
+.active {
+  color: #0ea5e9;
 }
 
-.delete-img {
+.delete {
+  height: 20px;
   width: 20px;
+}
+
+.comment-line {
+  width: 100%;
+  border: 1px solid #dee0e3;
 }
